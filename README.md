@@ -16,7 +16,7 @@ Este é um experimento simples direto e funcional que mostra como seu navegador 
 ## 📦 Como usar
 
 1. Clone ou baixe este repositório
-2. Abra o arquivo `scanner/index.html` em qualquer navegador
+2. Abra o arquivo `index.html` em qualquer navegador
 3. Um alerta será exibido com seu fingerprint
 
 ## 🔬 Referências
