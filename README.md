@@ -1,5 +1,7 @@
 # Scanner de Fingerprint Canvas (HTML Simples)
 
+https://sshadowchief.github.io/browser_fingerprints_scanner/
+
 Este é um experimento simples direto e funcional que mostra como seu navegador pode ser rastreado usando **Canvas Fingerprinting**, mesmo com:
 
 - VPN ativada
