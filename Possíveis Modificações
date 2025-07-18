@@ -1,0 +1,22 @@
+#🧬 Tudo que um site pode pegar sem pedir permissão nenhuma:
+
+Dado exposto	API usada	Detalhe nojento
+
+##Núcleos de CPU##=	navigator.hardwareConcurrency	Diferencia PCs gamer de notebook véio
+
+Memória RAM=	navigator.deviceMemory	Exposto até no Chrome mobile
+
+Fuso horário=	Intl.DateTimeFormat().resolvedOptions().timeZone	Serve pra inferir país/estado
+Idiomas	navigator.languages	Até a ordem dos idiomas ajuda na fingerprint
+
+Sistema e arquitetura=	navigator.platform	Diferencia Linux, Mac, Win32, ARM, x64...
+
+Canvas fingerprint=	canvas.toDataURL() + getImageData()	Exibe diferenças mínimas entre GPUs e fontes
+
+WebGL info=	webgl.getParameter(...)	Identifica modelo de GPU e driver usado
+
+Tamanho da tela=	window.innerWidth, screen.height, etc.	Ajuda a identificar até se é dual-monitor
+
+Plugins e MIME types=	navigator.plugins	Morreu no Chrome, mas vive no Firefox
+
+Suporte a features=	window.indexedDB, window.WebSocket, etc.	Permite deduzir qual navegador exato você usa
