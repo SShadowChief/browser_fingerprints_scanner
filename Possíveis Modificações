@@ -1,8 +1,8 @@
-#🧬 Tudo que um site pode pegar sem pedir permissão nenhuma:
+🧬 Tudo que um site pode pegar sem pedir permissão nenhuma:
 
 Dado exposto	API usada	Detalhe nojento
 
-##Núcleos de CPU##=	navigator.hardwareConcurrency	Diferencia PCs gamer de notebook véio
+Núcleos de CPU=	navigator.hardwareConcurrency	Diferencia PCs gamer de notebook véio
 
 Memória RAM=	navigator.deviceMemory	Exposto até no Chrome mobile
 
