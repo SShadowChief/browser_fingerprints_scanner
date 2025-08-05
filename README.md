@@ -1,37 +1,42 @@
-# Scanner de Fingerprint Canvas (HTML Simples)
+🔍 Canvas Fingerprint Scanner (Simple HTML)
+Live Demo
 
-https://sshadowchief.github.io/browser_fingerprints_scanner/
+This is a straightforward and functional experiment that demonstrates how your browser can still be tracked using Canvas Fingerprinting, even when:
 
-Este é um experimento simples direto e funcional que mostra como seu navegador pode ser rastreado usando **Canvas Fingerprinting**, mesmo com:
+VPN is enabled
 
-- VPN ativada
-- Modo anônimo
-- Bloqueio de cookies
+Incognito mode is active
 
-## ⚠️ O que ele faz?
+Cookies are blocked
 
-- Cria um canvas invisível
-- Desenha um texto específico com fonte e estilo definidos
-- Converte isso em uma hash única
-- Exibe o hash como seu identificador de navegador
+⚠️ What does it do?
+Creates an invisible <canvas> element
 
-## 📦 Como usar
+Draws a specific string using a defined font and style
 
-1. Clone ou baixe este repositório
-2. Abra o arquivo `index.html` em qualquer navegador
-3. Um alerta será exibido com seu fingerprint
+Converts the rendered output into a unique hash
 
-## 🔬 Referências
+Displays this hash as your browser fingerprint
 
-- [Panopticlick - EFF](https://panopticlick.eff.org)
-- [BrowserLeaks - Canvas](https://browserleaks.com/canvas)
-- [FingerprintJS](https://fingerprint.com)
+📦 How to Use
+Clone or download this repository
 
-> Este scanner é apenas uma prova de conceito educacional.  
-> Não coleta, armazena ou envia dados para servidor nenhum.
-> O código é aberto para todos.
+Open the index.html file in any browser
 
+An alert will display your unique fingerprint
 
-*Criado em parceria com a AI-VEX e AI-HYDR@ criadas por mim para auxiliarem nos estudos sobres engenharia reversa e privacidade... (ou a falta dela)
----
-💀 *Você achava que estava protegido só porque bloqueou os cookies?*
+🔬 References
+Panopticlick – EFF
+
+BrowserLeaks – Canvas
+
+FingerprintJS
+
+This scanner is strictly an educational proof of concept.
+It does not collect, store, or transmit any data to any server.
+The code is fully open-source.
+
+🤖 Built in collaboration with AI‑VEX and AI‑HYDR@
+Custom AI companions created by me to assist in studies of reverse engineering and digital privacy… or the lack thereof.
+
+💀 You thought you were safe just because you blocked cookies?
